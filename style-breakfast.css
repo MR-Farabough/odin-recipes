@@ -8,32 +8,35 @@ body {
     background-color: black;
     color: white;
     width: fit-content;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     padding-right: 10px;
     padding-left: 10px;
+    border-radius: 10px;
 }
 
-.very-nice {
-    color: lightcoral
+.breakfast-img {
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
 }
 
-.text {
+.text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     background-color: black;
     width: fit-content;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
     padding-right: 10px;
     padding-left: 10px;
-    border-radius: 35px;
+    border-radius: 10px;
 }
 
 .link {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     background-color: blue;
     width: fit-content;
@@ -41,13 +44,16 @@ body {
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    border-radius: 35px;
+    border-radius: 10px;
 }
 
-.link.one {
-    background-color: blue;
-}
-
-.link.two {
-    background-color: blueviolet;
+.steps {
+    color: white;
+    background-color: black;
+    width: 420px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
 }
