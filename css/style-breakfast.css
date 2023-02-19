@@ -62,6 +62,7 @@ body {
     border-radius: 10px;
 }
 
+.enjoy,
 .steps {
     color: white;
     background-color: rgb(51, 51, 51);
@@ -72,4 +73,15 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-align: center;
+}
+
+.enjoy {
+    margin-top: -20px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
