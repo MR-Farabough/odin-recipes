@@ -1,44 +1,59 @@
 body {
     text-align: left;
-    background-color: darkblue;
+    background-color: darkred;
     font-size: 25px;
 }
 
 .header-home {
-    background-color: black;
+    background-color: rgb(51, 51, 51);
     color: white;
+    margin: auto;
+    margin-top: 30px;
     width: fit-content;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    border-radius: 10px;
 }
 
 .breakfast-img {
-    height: auto;
-    width: 350px;
+    display: block;
+    border: 3px solid red;
     border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 250px;
+    width: auto;
 }
 
-.text{
+.text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border: 3px dotted red;
     color: white;
-    background-color: black;
     width: fit-content;
-    padding-bottom: 1px;
-    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.text.two {
+    text-align: center;
+    border: 0px;
 }
 
 .link {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: white;
-    background-color: blue;
+    background-color: rgb(51, 51, 51);
     width: fit-content;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -49,7 +64,8 @@ body {
 
 .steps {
     color: white;
-    background-color: black;
+    background-color: rgb(51, 51, 51);
+    margin: auto;
     width: 420px;
     padding-bottom: 10px;
     padding-top: 10px;
