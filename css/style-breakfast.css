@@ -4,11 +4,25 @@ body {
     font-size: 25px;
 }
 
+.home {
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    display: block;
+    margin: auto;
+    width: 343px;
+    border-radius: 10px;
+    border-color: white;
+    border-bottom-color: rgb(170, 170, 170);
+    border-right-color: rgb(170, 170, 170);
+}
+
 .header-home {
     background-color: rgb(51, 51, 51);
     color: white;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     width: fit-content;
     border-radius: 10px;
     padding-bottom: 10px;
